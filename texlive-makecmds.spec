@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/makecmds
+# catalog-date 2009-09-03 08:40:46 +0200
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-makecmds
 Version:	20090903
 Release:	1
@@ -45,6 +51,7 @@ environments.
 #- source
 %doc %{_texmfdistdir}/source/latex/makecmds/makecmds.dtx
 %doc %{_texmfdistdir}/source/latex/makecmds/makecmds.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -55,3 +62,5 @@ environments.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
