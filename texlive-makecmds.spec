@@ -51,3 +51,17 @@ environments.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20090903-2
++ Revision: 753706
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20090903-1
++ Revision: 718946
+- texlive-makecmds
+- texlive-makecmds
+- texlive-makecmds
+- texlive-makecmds
+
