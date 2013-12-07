@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-makecmds
 Version:	20090903
-Release:	3
+Release:	4
 Summary:	The new \makecommand command always (re)defines a command
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/makecmds
