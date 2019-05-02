@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-makecmds
-Version:	20180303
-Release:	2
+Version:	20190228
+Release:	1
 Summary:	The new \makecommand command always (re)defines a command
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/makecmds
