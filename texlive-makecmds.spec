@@ -1,6 +1,6 @@
 Name:		texlive-makecmds
 Version:	15878
-Release:	1
+Release:	2
 Summary:	The new \makecommand command always (re)defines a command
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/makecmds
