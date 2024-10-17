@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	The new \makecommand command always (re)defines a command
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/makecmds
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/makecmds
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/makecmds.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/makecmds.doc.r%{version}.tar.xz
